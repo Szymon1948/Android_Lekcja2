@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Odpowiedz1"
-            android:onClick="sprawdz"/>
+            android:onClick="sprawdz"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
 
         <Button
             android:id="@+id/button5"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Odpowiedz2"
-            android:onClick="sprawdz"/>
+            android:onClick="sprawdz"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -42,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kolejne Pytanie"
-        android:onClick="kolejne"/>
+        android:onClick="kolejne"
+        android:textColor="@color/red"/>
 
 </LinearLayout>
