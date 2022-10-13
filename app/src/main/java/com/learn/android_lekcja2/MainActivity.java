@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         if(licznik==pytanie.size()){
             pytTextView.setText("Koniec Testu");
             view.setVisibility(View.INVISIBLE);
+            licznik--;
         }
         else{
             wyswietlPytanie(licznik);
